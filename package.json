@@ -1,0 +1,17 @@
+{
+  "name": "docgennodejs",
+  "version": "1.0.0",
+  "description": "NodeJS Documentation Generator For Components",
+  "main": "app.js",
+  "dependencies": {
+    "log4js": "^2.6.1",
+    "officegen": "^0.4.5",
+    "unzip": "^0.1.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "praharshita.krishna@kony.com [KH2335]",
+  "license": "MIT"
+}

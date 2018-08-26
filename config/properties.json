@@ -1,0 +1,7 @@
+{
+    "inputType":"zip",
+    "inputFolder":"./ComponentsUI",
+    "outputFolder":"./GeneratedDocumentation",
+    "temp":"./temp",
+    "pathToPropertiesFile":"./uwProperties.json"
+}

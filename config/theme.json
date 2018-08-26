@@ -1,0 +1,82 @@
+{
+    "font_face": "Avenir Book",
+    "doc_header": {
+        "color": "000000",
+        "font_face": "Avenir Book",
+        "font_size": "22",
+        "bold":true,
+        "underline":true,
+        "align":"center"
+    },
+    "heading": {
+        "color": "000000",
+        "font_face": "Avenir Book",
+        "font_size": "14",
+        "bold":true,
+        "underline":true,
+        "align":"left"
+
+    },
+    "sub-heading": {
+        "color": "000000",
+        "font_face": "Avenir Book",
+        "font_size": "12",
+        "bold":true,
+        "underline":true,
+        "align":"left"
+
+    },
+    "regular": {
+        "color": "000000",
+        "font_face": "Avenir Book",
+        "font_size": "10",
+        "bold":false,
+        "underline":false,
+        "align":"left"
+
+    },
+    "regular-bold-underlined": {
+        "color": "000000",
+        "font_face": "Avenir Book",
+        "font_size": "10",
+        "bold":true,
+        "underline":true,
+        "align":"left"
+
+    },
+    "syntax": {
+        "color": "000000",
+        "font_face": "Avenir Book",
+        "font_size": "10",
+        "back":"D3D3D3",
+        "bold":false,
+        "underline":false,
+        "align":"left"
+
+    },
+    "code-snippet": {
+        "color": "000000",
+        "font_face": "Avenir Book",
+        "font_size": "10",
+        "back":"D3D3D3",
+        "bold":false,
+        "underline":false,
+        "align":"left"
+
+    },
+    "placeholder": {
+        "color": "#808080",
+
+        "font_face": "Avenir Book",
+        "font_size": "10",
+        "bold":false,
+        "underline":false,
+        "align":"left"
+
+    },
+    "left-margin": 1000,
+    "right-margin": 1000,
+    "top-margin": 1000,
+    "bottom-margin": 1000,
+    "orientation": "portrait"
+}

@@ -1,0 +1,93 @@
+{
+    "intro": {
+        "key": "Introduction",
+        "placeholder": "Write a brief description about your component.",
+        "theme":"heading"
+    },
+    "comp_functionality": {
+        "key": "Component Functionality",
+        "placeholder": "Explain the basic functionality of your component.",
+        "theme":"heading"
+    },
+    "usecase": {
+        "key": "Use Case",
+        "placeholder": "Explain what use cases it is best used for and what problems it is solving.",
+        "theme":"heading"
+    },
+    "prerequisites": {
+        "key": "Prerequisites",
+        "placeholder": "Mention any pre-requisites or dependencies of the component.",
+        "theme":"heading"
+    },
+    "importing_the_component": {
+        "key": "Importing The Component",
+        "placeholder": "Please explain the steps to import your component.",
+        "theme":"heading"
+    },
+    "adding_the_component": {
+        "key": "Adding The Component To Your Application",
+        "placeholder": "Please explain the steps to use your component.",
+        "theme":"heading"
+    },
+    "properties": {
+        "key": "Settings Properties",
+        "theme":"heading"
+    },
+    "events": {
+        "key": "Defining Events",
+        "theme":"heading"
+    },
+    "apis": {
+        "key": "APIs",
+        "theme":"heading",
+        "template":{
+            "description":{
+                "key":"Description",
+                "placeholder":"Describe the API and its functionality",
+                "theme":"regular-bold-underlined"
+
+            },
+            "syntax":{
+                "key":"Syntax",
+                "theme":"regular-bold-underlined",
+                "error":"Syntax couldn't be defined!",
+                "content_theme":"syntax"
+            },
+            "parameters":{
+                "key":"Parameters",
+                "theme":"regular-bold-underlined",
+                "content_theme":"regular"
+            },
+            "return":{
+                "key":"Return Value",
+                "theme":"regular-bold-underlined",
+                "placeholder":"Please describe your return type."
+
+            },
+            "example":{
+                "key":"Example",
+                "theme":"regular-bold-underlined",
+                "error":"Example couldn't be defined!",
+                "content_theme":"syntax",
+                "mvc_snippet":"this.view.",
+                "non_mvc_snippet":"frmHome."
+            }
+            
+        }
+    },
+    "limitations": {
+        "key": "Limitations",
+        "placeholder": "Mention the limitations of you component if any. Eg: Platform limitations, orientation etc.",
+        "theme":"heading"
+    },
+    "known_issues": {
+        "key": "Known Issues",
+        "placeholder": "Mention any known issues or bugs in the component.",
+        "theme":"heading"
+    },
+    "misc": {
+        "key": "Miscellaneous",
+        "placeholder": "Any additional information about the component that will be useful for the component consumer.",
+        "theme":"heading"
+    }
+}

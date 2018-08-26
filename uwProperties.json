@@ -1,0 +1,400 @@
+{
+    "classname": "slider",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "paramList": [
+                        {
+                            "name": "p1"
+                        }
+                    ],
+                    "propertyKey": "getSelectedValues",
+                    "pw": {
+                        "displayName": "getSelectedValues",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u15ea09569154d12adfec70639e98c40",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "paramList": [
+                        {
+                            "name": "p1"
+                        },
+                        {
+                            "name": "p2"
+                        },
+                        {
+                            "name": "p3"
+                        }
+                    ],
+                    "propertyKey": "trialDummyAPI",
+                    "pw": {
+                        "displayName": "trialDummyAPI",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u15ea09569154d12adfec70639e98c40",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "paramList": [],
+                    "propertyKey": "putSeleectedValues",
+                    "pw": {
+                        "displayName": "putSeleectedValues",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u15ea09569154d12adfec70639e98c40",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "originalPropertyKey": "add",
+                    "propertyKey": "addFlxBlocker",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "addFlxBlocker",
+                        "srcWidget": "flxBlocker",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "ude63fcad8c949d49a460792a2f5652d"
+                },
+                {
+                    "access": "Enable",
+                    "group": "GetValues",
+                    "originalPropertyKey": "setVisibility",
+                    "propertyKey": "lblLineSetVisibility",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "lblLineSetVisibility",
+                        "srcWidget": "lblLine",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "u05629e8b52b45b2adfe6cc0265f6ff3"
+                }
+            ]
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "onTouchMove",
+                    "paramList": [
+                        {
+                            "name": "value"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onMinChange",
+                    "pw": {
+                        "displayName": "onMinChange",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u15ea09569154d12adfec70639e98c40",
+                    "type": "event"
+                },
+                {
+                    "group": "onTouchEnd",
+                    "paramList": [
+                        {
+                            "name": "value"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onMinChangeEnd",
+                    "pw": {
+                        "displayName": "onMinChangeEnd",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u15ea09569154d12adfec70639e98c40",
+                    "type": "event"
+                },
+                {
+                    "group": "onTouchMove",
+                    "paramList": [
+                        {
+                            "name": "value"
+                        }
+                    ],
+                    "propertyIndex": 2,
+                    "propertyKey": "onMaxChange",
+                    "pw": {
+                        "displayName": "onMaxChange",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u15ea09569154d12adfec70639e98c40",
+                    "type": "event"
+                },
+                {
+                    "group": "onTouchEnd",
+                    "paramList": [
+                        {
+                            "name": "value"
+                        }
+                    ],
+                    "propertyIndex": 2,
+                    "propertyKey": "onMaxChangeEnd",
+                    "pw": {
+                        "displayName": "onMaxChangeEnd",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u15ea09569154d12adfec70639e98c40",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "flxBlockerOnClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "flxBlockerOnClick",
+                        "srcWidget": "flxBlocker",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "ude63fcad8c949d49a460792a2f5652d"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "originalPropertyKey": "onTouchStart",
+                    "propertyIndex": 2,
+                    "propertyKey": "lblBeginOnTouchStart",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "lblBeginOnTouchStart",
+                        "srcWidget": "lblBegin",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ud9b00478e6541929189d6f7d89ce334"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "originalPropertyKey": "onDownloadComplete",
+                    "propertyIndex": 3,
+                    "propertyKey": "imgOnDownload",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "imgOnDownload",
+                        "srcWidget": "imgPinIndicatorRight",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "ua973da3f27f448aa7598c98360ff68f"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General",
+                "GetValues"
+            ],
+            "events": [
+                "GetValues",
+                "onTouchMove",
+                "onTouchEnd"
+            ],
+            "properties": [
+                "Range",
+                "Scale",
+                "Exposed Skins"
+            ]
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "0",
+                    "group": "Scale",
+                    "originalPropertyKey": "graduations",
+                    "propertyIndex": 1,
+                    "propertyKey": "graduations",
+                    "pw": {
+                        "displayName": "Steps",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u15ea09569154d12adfec70639e98c40",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "0",
+                    "group": "Range",
+                    "originalPropertyKey": "startIndex",
+                    "propertyIndex": 1,
+                    "propertyKey": "startIndex",
+                    "pw": {
+                        "displayName": "Default Minimum Value",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u15ea09569154d12adfec70639e98c40",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "5",
+                    "group": "Scale",
+                    "originalPropertyKey": "divisions",
+                    "propertyIndex": 2,
+                    "propertyKey": "divisions",
+                    "pw": {
+                        "displayName": "Interval Count",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u15ea09569154d12adfec70639e98c40",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "100",
+                    "group": "Range",
+                    "originalPropertyKey": "endIndex",
+                    "propertyIndex": 2,
+                    "propertyKey": "endIndex",
+                    "pw": {
+                        "displayName": "Default Maximum Value",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u15ea09569154d12adfec70639e98c40",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "Scale",
+                    "originalPropertyKey": "intervalDisplay",
+                    "propertyIndex": 3,
+                    "propertyKey": "intervalDisplay",
+                    "pw": {
+                        "displayName": "Interval Display",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "u15ea09569154d12adfec70639e98c40",
+                    "type": "boolean",
+                    "value": "true/false"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "Exposed Skins",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 1,
+                    "propertyKey": "skin1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Normal",
+                        "srcWidget": "flxBlocker",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "ude63fcad8c949d49a460792a2f5652d"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Exposed Skins",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 2,
+                    "propertyKey": "backgroundSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Background Skin",
+                        "srcWidget": "flxback",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "u62c7272bd124cf08f114a8429c4a0b8"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Exposed Skins",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 3,
+                    "propertyKey": "leftBullet",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Left Bullet Skin",
+                        "srcWidget": "lblBullet1",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ufdc7d5d473f48b38ff77c9c80abb0a2"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Exposed Skins",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 4,
+                    "propertyKey": "rightBullet",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Right Bullet Skin",
+                        "srcWidget": "lblBullet2",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "u6b96c7047ff4dd9a5cf182ed4648be7"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Scale",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 4,
+                    "propertyKey": "normalLine",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Line Normal Skin",
+                        "srcWidget": "lblLine",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "u05629e8b52b45b2adfe6cc0265f6ff3"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Exposed Skins",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 5,
+                    "propertyKey": "highlightedLine",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Line Highlighted Skin",
+                        "srcWidget": "lblRange",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ue647be7bb60457695c403f57c902ccc"
+                }
+            ]
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}
